@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="photographie, samuel mélia, association de photographes">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <title>Contribuer aux photographes anonymes</title>
+</head>
+
+<body>
+  <h1 class="big-title">Association des photographes anonymes</h1>
+  <meta item="associationName" content="Les photographes anonymes" />
+
+  <div class="header">
+    <p class="police shadowed">Nous vous remercions pour avoir atteint cette page. Elle montre votre volonté de partager
+      vos créations de manière gratuite. En nous confiant vos clichés, vous acceptez qu'elles soient publiquement
+      réutilisées sans contre-partie financière. Nous examinons les photos au cas par cas pour vérifier qu'il n'y ait
+      pas d'incompatibilité avec les droit d'auteur.</p>
+  </div>
+
+  <!--Fil d'Ariane-->
+  <div class="row">
+    <nav class="col-12" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="../index.html" class="superlink-gray shadowed">Accueil</a>
+        </li>
+        <li class="breadcrumb-item" aria-current="contribuer"><span class="shadowed active">Contribuer</span></li>
+        <li class="breadcrumb-item"><a href="../html/events.html" class="superlink-gray shadowed">Evènements à venir</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+  <h3 class="title line-jump">Je contribue bénévolement au site en partageant mes propres photographies</h2>
+
+    <!--Formulaire-->
+    <form class="row g-3">
+
+      <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Prénom et nom</label>
+        <input type="text" class="form-control" id="fullName" placeholder="Jean POULET" required>
+      </div>
+
+      <div class="col-md-4">
+        <label for="validationDefault02" class="form-label">Courriel</label>
+        <input type="text" class="form-control" id="mail" placeholder="jean.poulet@mail.com" required>
+      </div>
+
+      <div class="col-md-4">
+        <label for="validationDefaultUsername" class="form-label">Pseudo</label>
+        <div class="input-group">
+          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+          <input type="text" class="form-control" id="pseudo" aria-describedby="inputGroupPrepend2" required>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <label for="picture" class="form-label">Image à transmettre : </label>
+        <input type="file" id="picture" name="picture" accept="image/png, image/jpg, image/jpeg">
+      </div>
+
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+          <label class="form-check-label" for="invalidCheck2">
+            J'accepte les <a href="../html/legals.html" class="superlink-red" target="_blank">termes et conditions.</a>
+          </label>
+        </div>
+      </div>
+
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit">Envoyer</button>
+      </div>
+    </form>
+
+    <p class="police shadowed">Nous vous remercions pour être venu visiter notre site et pour avoir pris le temps de
+      partager votre photos. Ce site peut fonctionner grâce aux nombreuses contributions que nous recevons régulièrement
+      et nous espérons pouvoir en afficher le maximum. Vous recevrez un mail d'avertissement lorsque votre photo sera
+      diffusée. Même si elle est parfois remplacée, elle reste dans la base de données et sera de nouveau mise à l'avant
+      par la suite. N'hésitez pas à parler de nous autour de vous et pour faire la promotion de vos créations (ou celles
+      de vos amis) sur notre site.</p>
+
+    <footer class="footer">
+      <div>Contacts</div>
+      <div><a href="tel:0600000000" class="superlink-yellow spaced">Téléphone</a></div>
+      <div><a href="mailto:contact@mail.fr?subject=J'ai aimé votre site" class="superlink-yellow spaced" target="_blank"
+          title="Ecrivez-moi">Courriel</a></div>
+      <div><a href="https://api.whatsapp.com/send?phone=0600000000" class="superlink-yellow spaced"
+          target="_blank">WhatsApp</a>
+      </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
